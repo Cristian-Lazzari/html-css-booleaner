@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+   width: 100vw;
+   height: auto;
+   position: relative;
+}
+header{
+   background-color: aqua;
+   background-image:url(img/pattern.png);
+   height: 35vh;
+   width: 100%;
+   background-repeat: repeat;
+   padding-top: 15vh;
+   padding-left: 1vw;
+
+   
+}
+.logo{
+    height: 70%;
+    width: auto;    
+}
+main{
+    position: absolute;
+    padding-left: 1vw;
+    font-family: 'PT Serif', serif;
+
+}
+
+h1,.writer, #booleaner, #when{
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-size: 3em;
+}
+.writer, #booleaner, #when{
+    color: gray;
+    font-size: 1em;
+}
+#when, #booleaner{
+    font-size:0,5em
+} 
+#booleaner{
+    color: rgb(36, 161, 210);
+    text-decoration: none;
+}
+figcaption{
+    font-size: 10px;
+}
