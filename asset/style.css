@@ -8,7 +8,7 @@
    position: relative;
 }
 header{
-   background-color: aqua;
+   background-color: rgb(26, 125, 158);
    background-image:url(img/pattern.png);
    height: 35vh;
    width: 100%;
@@ -48,4 +48,43 @@ h1,.writer, #booleaner, #when{
 }
 figcaption{
     font-size: 10px;
+    padding-bottom: 2vh;
+}
+section{
+    border-top: 5vh;
+}
+
+#elenco{
+    padding-top: 2vh;
+    padding-bottom: 5vh;
+    
+}
+ul{
+    padding-left: 3vh;
+}
+table{
+    border-spacing: 0;
+    border-top: 5vh;
+    margin-bottom: 5vh;
+
+}
+.table-head{
+  
+    background-color: rgb(40, 183, 230);
+    color: white;
+  
+}
+.table-body-1{
+  
+    background-color: rgb(122, 218, 250);
+  
+}
+.coloumn{
+    width: 25vw;
+}
+.evidenziatore{
+    background-color: yellow;
+}
+title{
+    color: grey;
 }
