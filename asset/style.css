@@ -85,6 +85,15 @@ table{
 .evidenziatore{
     background-color: yellow;
 }
-title{
+.title{
     color: grey;
+}
+.last-section{
+    padding-bottom: 7vh;
+}
+.aside{
+    padding-top: 5vh;
+    width: auto;
+    
+    
 }
